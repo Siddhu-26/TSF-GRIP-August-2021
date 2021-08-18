@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 
 # Storing the Dataset in local variables
-deliveries = pd.read_csv("E:\TSF\T2 - Sports\deliveries.csv")
-matches = pd.read_csv("E:\TSF\T2 - Sports\matches.csv")
+deliveries = pd.read_csv("deliveries.csv")
+matches = pd.read_csv("matches.csv")
 
 # Teams
 temp = np.array(matches.iloc[:,10])
