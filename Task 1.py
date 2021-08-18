@@ -4,7 +4,7 @@ from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 
 # Storing the dataset
-given = pd.read_csv('E:\TSF\T1- Percentage of student using study hours\data.csv')
+given = pd.read_csv('data.csv')
 
 # Storing them in 2 variables
 x = np.array(given[given.columns[0]]).reshape(-1,1)
